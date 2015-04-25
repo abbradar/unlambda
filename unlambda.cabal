@@ -22,7 +22,7 @@ source-repository head
 
 executable              unlambda
    main-is:             Main.hs
-   build-depends:       base>3 && <4.8, unix
+   build-depends:       base>3 && <4.9, unix
 
 library
    exposed-modules:     Language.Unlambda

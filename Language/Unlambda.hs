@@ -28,7 +28,9 @@ module Language.Unlambda where
 #if !MIN_VERSION_base(4,6,0)
 import Prelude hiding(catch)
 #endif
+import Control.Applicative
 import Control.Exception (catch, IOException)
+import Control.Monad (liftM, ap)
 
 ------------------------------------------------------------------------
 -- Abstract syntax
@@ -84,6 +86,16 @@ sh Pipe       = showChar '|'
 newtype Eval a = Eval ((Maybe Char, Int) -> Cont a -> IO Exp)
 
 type Cont a = (Maybe Char, Int) -> a -> IO Exp
+
+instance Functor Eval where
+
+  fmap = liftM
+
+instance Control.Applicative.Applicative Eval where
+
+  pure = return
+
+  (<*>) = ap
 
 instance Monad Eval where
 
