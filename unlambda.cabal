@@ -4,7 +4,7 @@ license:             GPL
 license-file:        LICENSE
 author:              Ørjan Johansen <oerjan@nvg.ntnu.no>
                      Don Stewart <http://www.cse.unsw.edu.au/~dons>
--- maintainer:          Cale
+maintainer:          Nikolay Amiantov <ab@fmap.me>
 
 stability:           Stable
 category:            Compilers/Interpreters
@@ -14,7 +14,7 @@ description:         This is an interpreter of the Unlambda language,
 
 build-type:          Simple
 Cabal-Version:       >= 1.6
-tested-with:         GHC==6.8.2
+tested-with:         GHC==7.10.1
 
 source-repository head
   type:     darcs
