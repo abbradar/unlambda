@@ -91,7 +91,7 @@ instance Functor Eval where
 
   fmap = liftM
 
-instance Control.Applicative.Applicative Eval where
+instance Applicative Eval where
 
   pure = return
 
