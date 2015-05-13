@@ -5,7 +5,7 @@ Uses pattern guards
 This is an interpreter of the Unlambda language, written in
 the pure, lazy, functional language Haskell.
 
-Copyright (C) 2001 by Ørjan Johansen <oerjan@nvg.ntnu.no>
+Copyright (C) 2001 by Ã˜rjan Johansen <oerjan@nvg.ntnu.no>
 Copyright (C) 2006 by Don Stewart - http://www.cse.unsw.edu.au/~dons
 
 This program is free software; you can redistribute it and/or modify
