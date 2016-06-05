@@ -1,5 +1,5 @@
 name:                unlambda
-version:             0.1.4.1
+version:             0.1.4.2
 license:             GPL
 license-file:        LICENSE
 author:              Ørjan Johansen <oerjan@nvg.ntnu.no>
@@ -14,7 +14,7 @@ description:         This is an interpreter of the Unlambda language,
 
 build-type:          Simple
 cabal-version:       >= 1.6
-tested-with:         GHC==7.10.1
+tested-with:         GHC==8.0.1
 
 source-repository head
   type:     git
