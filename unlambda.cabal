@@ -30,4 +30,4 @@ library
    build-depends:       base>3 && <5, array, mtl
 
    ghc-options:         -Wall
-   ghc-prof-options:    -prof -auto-all
+   ghc-prof-options:    -auto-all
